@@ -1,0 +1,43 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 25, 2024, 10:40:17 PM
+    Author     : LENOVO
+*/
+#info {
+    background:#333;
+    opacity:0.8;
+    position: absolute;
+    top:5px;
+    right:5px;
+    width:280px;
+    color:#fff;
+    border-radius: 5px;
+    z-index:10
+
+}
+
+#info p {
+    padding:0 10px;
+}
+
+#info a{
+    color:#f2ea0a;
+}
+
+/* basic styles for black background and crosshair cursor */
+body {
+    background: #000;
+    margin: 0;
+}
+
+canvas {
+    cursor: crosshair;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
